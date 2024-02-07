@@ -32,7 +32,11 @@ public class AddToCart_TestCase extends BaseTest {
 		//Step 2 : Validating
 		Assert.assertEquals(driver.getCurrentUrl(), "https://demowebshop.tricentis.com/digital-downloads","Digital Download Page not Displayed");
 		Reporter.log("Digital Download Page Displayed", true);
+		//
+		//
+		//
 		
+
 		//Step 3 : Adding Products to cart
 		//DigitalDownloadsPage digital_Downloads_Page = new DigitalDownloadsPage();
 		List<WebElement> addToCart = driver.findElements(By.xpath("//input[@value='Add to cart']"));
